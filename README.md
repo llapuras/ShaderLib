@@ -1,3 +1,3 @@
-# 积雪
+# ShaderLib
 
-![积雪](https://github.com/llapuras/ShaderLib/blob/master/AccumulatedSnow/rim.gif)
+常用Shader收集。
