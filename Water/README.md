@@ -13,3 +13,4 @@
 ### Edge_Shine.shader
 
 ![Edge_Shine.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/edge_shine.gif)
+
