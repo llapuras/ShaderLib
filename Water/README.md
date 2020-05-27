@@ -8,7 +8,7 @@
 
 ### water002.shader
 
-![water001.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water003.gif)
+![water002.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water003.gif)
 
 ### Edge_Shine.shader
 
