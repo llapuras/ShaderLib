@@ -67,8 +67,6 @@
 					float foamLine = 1 - saturate(_FoamThickness * (depth - i.screenPos.w));
 
 					half4 col = _Tint + foamLine * _EdgeColor * 0.5 * offset.y; //泛光边缘效果
-
-					//half4 col = _Tint + foamLine * _EdgeColor * 0.5 * offset.y;
 					return col;
 				}
 				ENDCG
