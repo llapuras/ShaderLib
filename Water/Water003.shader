@@ -72,21 +72,6 @@ Shader "Lapu/Water003"
 
 				fixed4 frag(v2f i) : SV_Target
 				{
-					float4 ambientLight = UNITY_LIGHTMODEL_AMBIENT;
-
-				float4 lightDirection = normalize(_WorldSpaceLightPos0);
-
-				float4 diffuseTerm = saturate(dot(lightDirection, i.normal));
-				float4 diffuseLight = diffuseTerm * _EdgeColor;
-
-				float4 cameraPosition = normalize(float4(_WorldSpaceCameraPos,1) - i.vertex);
-
-				// Blinn-Phong
-				float4 halfVector = normalize(lightDirection + cameraPosition);
-				float4 specularTerm = pow(saturate(dot(i.normal, halfVector)), 125);
-
-
-
 					float2 dism = UnpackNormal(tex2D(_DistortionMap, i.dismap + (_Time.x * 0.2)));
 					float2 offset = dism * (_DistortionFactor * 10) * _GrabTexture_TexelSize.xy;
 					i.grabtex.xy = offset+ i.grabtex.xy;;
