@@ -10,6 +10,10 @@
 
 ![water002.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water003.gif)
 
+### water003.shader
+
+![water003.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water004.gif)
+
 ### edge_shine.shader
 
 ![Edge_Shine.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/edge_shine.gif)
