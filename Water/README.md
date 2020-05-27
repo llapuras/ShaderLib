@@ -12,12 +12,11 @@
 
 ### water003.shader
 
-![water003.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water004.gif)
+![water003.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water005.gif)
 
 ### edge_shine.shader
 
 ![Edge_Shine.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/edge_shine.gif)
-
 
 ### blingbling.shader
 
