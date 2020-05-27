@@ -1,16 +1,16 @@
-﻿Shader "Lapu/Water003"
+﻿Shader "Lapu/blingbling"
 {
 	Properties
 	{
 		_Tint("Tint", Color) = (1, 1, 1, 1)
 		_MainTex("Main Texture", 2D) = "white" {}
-		_MainDistortionFactor("Main Distortion Factor", Range(0,10)) = 1
+		_MainDistortionFactor("Main Distortion Factor", Range(0,10)) = 10
 		_Amount("Wave Amount", Range(0,1)) = 0.5
 		_Height("Wave Height", Range(0,1)) = 0.5
 		_Speed("Wave Speed", Range(0,1)) = 0.5
-		_FoamThickness("Foam Thickness", Range(0,10)) = 0.5
+		_FoamThickness("Foam Thickness", Range(0,10)) = 0
 		_DistortionMap("Distortion Tex", 2D) = "grey"{}
-		_DistortionFactor("Distortion Factor", Range(0.001,10)) = 1
+		_DistortionFactor("Distortion Factor", Range(0.001,10)) = 10
 		_EdgeColor("Edge Color", Color) = (1, 1, 1, 1)
 	}
 
@@ -76,7 +76,7 @@
 					float depth = LinearEyeDepth(depthSample);
 					float foamLine = 1 - saturate(_FoamThickness * (depth - i.screenPos.w));
 
-					half4 col = tex2D(_MainTex, i.uv + offset * _MainDistortionFactor / _DistortionFactor) * _Tint;
+					half4 col = tex2D(_MainTex, i.uv + offset * _MainDistortionFactor) * _Tint;
 					col += foamLine * _Tint;
 					col = (col + dis) * col.a;
 
