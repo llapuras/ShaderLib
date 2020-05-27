@@ -6,5 +6,5 @@
 
 ### water002.shader
 
-![water001.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water002.gif)
+![water001.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water003.gif)
 
