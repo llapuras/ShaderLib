@@ -1,6 +1,6 @@
 # UI Blur
 
-[博文链接](https://llapuras.top/UnityShader-%E7%80%91%E5%B8%83/)
+[博文链接](https://llapuras.top/Unity-UI-Blur/)
 
 ### BlurUI_000.shader
 
