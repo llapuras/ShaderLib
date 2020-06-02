@@ -1,24 +1,23 @@
-# 水和瀑布🌊
+# UI Blur
 
 [博文链接](https://llapuras.top/UnityShader-%E7%80%91%E5%B8%83/)
 
-### water001.shader
+### BlurUI_000.shader
 
-![water001.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water001.gif)
+![](https://github.com/llapuras/ShaderLib/blob/master/UIBlur/BlurUI_000.png)
 
-### water002.shader
+### BlurUI_001.shader
 
-![water002.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water003.gif)
+![](https://github.com/llapuras/ShaderLib/blob/master/UIBlur/BlurUI_001.gif)
 
-### water003.shader
+### BlurUI_002.shader
 
-![water003.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/water005.gif)
+![](https://github.com/llapuras/ShaderLib/blob/master/UIBlur/BlurUI_002.gif)
 
-### edge_shine.shader
 
-![Edge_Shine.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/edge_shine.gif)
+### Sample
 
-### blingbling.shader
+![](https://github.com/llapuras/ShaderLib/blob/master/UIBlur/BlurUI_009.gif)
 
-![blingbling.shader](https://github.com/llapuras/ShaderLib/blob/master/Water/blingbling.png)
+
 
