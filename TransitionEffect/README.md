@@ -7,3 +7,4 @@
 ※ 图片的wrap mode记得设置成repeat
 
 ![](https://github.com/llapuras/ShaderLib/blob/master/TransitionEffect/BackgroundEffet01/BackgroundEffect01.gif)
+
