@@ -1,9 +1,5 @@
 # Xbr
 
-来源：unity shader cookbook
+来源：[Unity-2018-Shaders-and-Effects-Cookbook-Third-Edition](https://github.com/PacktPublishing/Unity-2018-Shaders-and-Effects-Cookbook-Third-Edition/tree/master/Chapters%201-11/Unity%20Shaders%20and%20Effects)
 
-算法cg源代码取自[libretro/common-shaders](https://github.com/libretro/common-shaders/blob/master/xbrz/shaders/4xbrz.cg)。
-
-理论上这个库里的所有着色器都能直接复制粘贴转换大unity里（大佬太强了_(:з」∠)_
-
-![](https://github.com/llapuras/XbrShader/blob/master/pixelate.gif)
+![](https://github.com/llapuras/ShaderLib/blob/master/ScreenEffect/OldFilmEffect/oldFilmScreen.gif)
