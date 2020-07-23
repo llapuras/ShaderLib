@@ -21,3 +21,9 @@
 
 
 
+### ScreenBlur
+
+不用着色器的屏幕Blur效果(降采样)。
+
+![](https://github.com/llapuras/ShaderLib/blob/master/UIBlur/Bloom01.gif)
+
