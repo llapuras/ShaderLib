@@ -19,11 +19,16 @@
 
 ![](https://github.com/llapuras/ShaderLib/blob/master/UIBlur/blur_009.gif)
 
+----------------------------
 
-
-### ScreenBlur
+### ScreenBlur.cs
 
 不用着色器的屏幕Blur效果(降采样)。
 
 ![](https://github.com/llapuras/ShaderLib/blob/master/UIBlur/Bloom01.gif)
 
+### ScreenBlur_progressive.cs & ScreenBlur_progressive.shader
+
+降采样+上采样的全屏Blur效果。
+
+![](https://github.com/llapuras/ShaderLib/blob/master/UIBlur/Bloom02.gif)
