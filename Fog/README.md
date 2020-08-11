@@ -1,4 +1,4 @@
-# Xbr
+# SimpleFogPlane
 
 超实用雾效plane。
 
