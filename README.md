@@ -21,6 +21,6 @@ shader效果合集，也有一些是其他repo里的，以链接为准啦
 
 - 转场效果(目前空空如也) [链接](https://github.com/llapuras/ShaderLib/tree/master/TransitionEffect)
 
-- XBR像素平滑(类似动物之森DIY样式的效果)[链接](https://github.com/llapuras/UnityXbrShader) 
+- XBR像素平滑(类似动物之森DIY样式的效果) [链接](https://github.com/llapuras/UnityXbrShader) 
 
-- 沙砾闪烁shader(适用于雪地、沙漠、沙滩等场合)[链接](https://github.com/llapuras/AlfxTerrain/blob/master/Assets/Shader/Sparkles_x1.shader)
+- 沙砾闪烁shader(适用于雪地、沙漠、沙滩等场合) [链接](https://github.com/llapuras/AlfxTerrain/blob/master/Assets/Shader/Sparkles_x1.shader)
