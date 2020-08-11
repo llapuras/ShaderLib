@@ -1,9 +1,7 @@
 # Xbr
 
-Unity用像素画转换xbr算法。
+超实用雾效plane。
 
-算法cg源代码取自[libretro/common-shaders](https://github.com/libretro/common-shaders/blob/master/xbrz/shaders/4xbrz.cg)。
+※ 目前存在背景色过白bug（待修改
 
-理论上这个库里的所有着色器都能直接复制粘贴转换大unity里（大佬太强了_(:з」∠)_
-
-![](https://github.com/llapuras/XbrShader/blob/master/pixelate.gif)
+![](https://github.com/llapuras/Fog/blob/master/Fog.gif)
