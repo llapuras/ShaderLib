@@ -23,4 +23,4 @@ shader效果合集，也有一些是其他repo里的，以链接为准啦
 
 - XBR像素平滑(类似动物之森DIY样式的效果) [链接](https://github.com/llapuras/UnityXbrShader) 
 
-- 沙砾闪烁shader(适用于雪地、沙漠、沙滩等场合) [链接](https://github.com/llapuras/AlfxTerrain/blob/master/Assets/Shader/Sparkles_x1.shader)
+- 沙砾闪烁shader(适用于雪地、沙漠、沙滩等场合) [链接](https://github.com/llapuras/AlfxTerrain/blob/master/Assets/Shader/Sparkles_x1.shader) [文章](https://llapuras.top/%E5%9C%B0%E5%BD%A2%E7%94%9F%E6%88%90/)
