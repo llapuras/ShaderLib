@@ -4,7 +4,7 @@
 
 ### BlurUI_000.shader
 
-![](/blur_000.png)
+![](../blur_000.png)
 
 ### BlurUI_001.shader
 
