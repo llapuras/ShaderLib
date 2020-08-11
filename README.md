@@ -14,3 +14,11 @@ shader效果repo
 - Plane雾效·雾效的一种简单实现 [链接](https://github.com/llapuras/ShaderLib/tree/master/Fog)
 
 - 镜面 [链接](https://github.com/llapuras/ShaderLib/tree/master/Mirror)
+
+- Q弹效果 [链接](https://github.com/llapuras/ShaderLib/tree/master/Qspring)
+
+- 简易水面实现(带折射) [链接](https://github.com/llapuras/ShaderLib/tree/master/Water) [文章](https://llapuras.top/UnityShader-%E6%B0%B4%E9%9D%A2/)
+
+- 转场效果(目前空空如也) [链接](https://github.com/llapuras/ShaderLib/tree/master/TransitionEffect)
+
+- 
