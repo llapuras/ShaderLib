@@ -4,7 +4,7 @@
 
 ### BlurUI_000.shader
 
-![](https://github.com/llapuras/ShaderLib/blob/master/UIBlur/blur_000.png)
+![](/blur_000.png)
 
 ### BlurUI_001.shader
 
