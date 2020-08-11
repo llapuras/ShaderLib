@@ -2,4 +2,4 @@
 
 ### 材质球-prettyscifiDissolve
 
-![](https://github.com/llapuras/Dissolve/blob/master/prettyscifiDissolve.gif)
+![](https://github.com/llapuras/ShaderLib/blob/master/Dissolve/prettyscifiDissolve.gif)
