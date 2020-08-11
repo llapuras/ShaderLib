@@ -21,4 +21,6 @@ shader效果repo
 
 - 转场效果(目前空空如也) [链接](https://github.com/llapuras/ShaderLib/tree/master/TransitionEffect)
 
+- XBR像素平滑(类似动物之森DIY样式的效果)[链接](https://github.com/llapuras/UnityXbrShader) 
+
 - 
