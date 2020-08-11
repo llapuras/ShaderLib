@@ -1,6 +1,6 @@
 # ShaderLib
 
-shader效果repo
+shader效果合集，也有一些是其他repo里的，以链接为准啦
 
 
 - 基于法线的顶点移位积雪效果shader [链接](https://github.com/llapuras/ShaderLib/tree/master/AccumulatedSnow) [文章](https://llapuras.top/UnityShader-%E7%A7%AF%E9%9B%AA/)
