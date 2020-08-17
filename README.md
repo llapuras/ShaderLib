@@ -10,7 +10,7 @@ shader效果合集，也有一些是其他repo里的，以链接为准啦
 
 - Dissolve消融效果 [链接](https://github.com/llapuras/ShaderLib/tree/master/Dissolve)
 
-- 蝴蝶和游鱼动画的shader实现 [链接](https://github.com/llapuras/ShaderLib/tree/master/FishNButterfly)
+- 蝴蝶和游鱼的简易动画shader [链接](https://github.com/llapuras/ShaderLib/tree/master/FishNButterfly)
 
 - Plane雾效·雾效的一种简单实现 [链接](https://github.com/llapuras/ShaderLib/tree/master/Fog)
 
