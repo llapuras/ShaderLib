@@ -26,7 +26,7 @@ shader效果合集，也有一些是其他repo里的，以链接为准啦
 
 - 沙砾闪烁shader(适用于雪地、沙漠、沙滩等场合) [链接](https://github.com/llapuras/AlfxTerrain/blob/master/Assets/Shader/Sparkles_x1.shader) [文章](https://llapuras.top/%E5%9C%B0%E5%BD%A2%E7%94%9F%E6%88%90/)
 
-- 双层贴图shader [链接](https://github.com/llapuras/ShaderLib/tree/master/WorldPositionShader/DoubleTex) [文章](https://llapuras.top/World-Position-Shader/)
+- 双层贴图解密游戏用shader [链接](https://github.com/llapuras/ShaderLib/tree/master/WorldPositionShader/DoubleTex) [文章](https://llapuras.top/World-Position-Shader/)
 
 ### 其他途径收集
 
