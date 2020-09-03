@@ -34,3 +34,5 @@ shader效果合集，也有一些是其他repo里的，以链接为准啦
 
 - [XPL: Unity引擎的高品质后处理库](https://github.com/QianMo/X-PostProcessing-Library)·浅墨大佬的后处理库
 
+- [HoloShield](https://github.com/AdultLink/HoloShield)·科幻风格shader
+
