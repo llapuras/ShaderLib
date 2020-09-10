@@ -22,9 +22,10 @@ Shader "Lapu/Scan"
 		_Color("Main Color", Color) = (1,1,1,0)
 		[HDR]_Highcolor("Highcolor", Color) = (1.018156,2.249626,3.924528,1)
 		_Opacity("Opacity", Range(0 , 1)) = 1
+		_NoiseScale("Noise Scale", Range(0 , 1)) = 1
 
 		[Header(Scane Setting)]
-		_Width("Width", Range(0 , 10)) = 8.15
+		_Width("Width", Range(0 , 30)) = 8.15
 		_Speed("Speed", Range(-10 , 10)) = 4.5
 		_Rotation("Rotation", Range(0 , 15)) = 0.85	//todo
 
@@ -41,7 +42,7 @@ Shader "Lapu/Scan"
 		SubShader
 		{
 			Tags{ "RenderType" = "Opaque" "Queue" = "Transparent" }
-			
+			Cull Back
 			CGPROGRAM
 
 			#pragma target 4.6
@@ -54,16 +55,30 @@ Shader "Lapu/Scan"
 			{
 				float2 uv_texcoord;
 				float2 uv2_texcoord2;
+				float3 worldPos;// built in value to use the world space position
+				float3 worldNormal; // world normal built-in value
 			};
 
 			float4 _Color, _Highcolor;
 			sampler2D _Diffuse, _HighLitTexture;
 			float4 _Diffuse_ST, _HighLitTexture_ST;
 			float _Rotation, _Speed, _Width;
-			float _Opacity, _Cutoff, _HorizonHeight, _HorizonIntensity;
+			float _Opacity, _Cutoff, _HorizonHeight, _HorizonIntensity, _NoiseScale;
 		
 			void surf(Input i, inout SurfaceOutput  o)
 			{
+				float3 blendNormal = saturate(pow(i.worldNormal * 1.4, 4));
+
+				// normal noise triplanar for x, y, z sides
+				float3 xn = tex2D(_HighLitTexture, i.worldPos.zy * _NoiseScale);
+				float3 yn = tex2D(_HighLitTexture, i.worldPos.zx * _NoiseScale);
+				float3 zn = tex2D(_HighLitTexture, i.worldPos.xy * _NoiseScale);
+
+				float3 noisetexture = zn;
+				noisetexture = lerp(noisetexture, xn, blendNormal.x);
+				noisetexture = lerp(noisetexture, yn, blendNormal.y);
+
+				//rotation，虽然没加上旋转但是凌乱的效果不错
 				float Rot = _Rotation * (3.1415926f / 180.0f);
 				float s = sin(Rot);
 				float c = cos(Rot);
@@ -79,7 +94,7 @@ Shader "Lapu/Scan"
 #else
 				float lerpvalue = 1;
 #endif
-				float4 final = clamp(_Highcolor * pow(sin(highlitcolor.r * lerpvalue + _Speed * _Time.y), exp(10.0 - _Width)), float4(0, 0, 0, 0), float4(1, 1, 1, 1));
+				float4 final = clamp(_Highcolor * pow(sin(noisetexture.r * lerpvalue + _Speed * _Time.y), exp(10.0 - _Width)), float4(0, 0, 0, 0), float4(1, 1, 1, 1));
 
 				o.Albedo = (maincolor * _Color).rgb;
 				o.Emission = final.rgb;
