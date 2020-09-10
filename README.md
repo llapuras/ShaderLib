@@ -28,6 +28,9 @@ shader效果合集，也有一些是其他repo里的，以链接为准啦
 
 - 双层贴图解密游戏用shader [链接](https://github.com/llapuras/ShaderLib/tree/master/WorldPositionShader/DoubleTex) [文章](https://llapuras.top/World-Position-Shader/)
 
+- scifi扫描shader [链接](https://github.com/llapuras/ShaderLib/tree/master/Scifi/Scan)
+
+
 ### 其他途径收集
 
 - [Awesome Unity Open Source on GitHub (800+)](https://github.com/baba-s/awesome-unity-open-source-on-github)·基础shader效果比较齐全的收藏repo，感谢整理！
