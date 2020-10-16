@@ -4,6 +4,8 @@
 
 ### Scan
 
+emmm一个魔改shader，闪烁、scan、hologram...都可以的万能shader=ω=
+
 ![](../../../blob/master/Scifi/Scan/scan.gif)
 
 ### HoloMonitor
@@ -14,6 +16,6 @@
 
 ### Wireframe
 
-现况特效。
+线框特效。
 
 ![](../../../blob/master/Scifi/ScifiMonitor/fuitest02.gif)
