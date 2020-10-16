@@ -28,7 +28,7 @@ shader效果合集，也有一些是其他repo里的，以链接为准啦
 
 - 双层贴图解密游戏用shader [链接](https://github.com/llapuras/ShaderLib/tree/master/WorldPositionShader/DoubleTex) [文章](https://llapuras.top/World-Position-Shader/)
 
-- scifi风格shader [链接](https://github.com/llapuras/ShaderLib/tree/master/Scifi/Scan)
+- scifi风格shader [链接](https://github.com/llapuras/ShaderLib/tree/master/Scifi)
   
   - 扫描(带贴图
   
