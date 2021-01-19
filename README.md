@@ -35,6 +35,8 @@ shader效果合集，也有一些是其他repo里的，以链接为准啦
   - HoloMonitor
   
   - Wireframe
+  
+  - 基于depthmap的摇头晃脑小动画[链接](https://github.com/llapuras/ShaderLib/tree/master/DepthMapKitty)
 
 ### 其他途径收集
 
